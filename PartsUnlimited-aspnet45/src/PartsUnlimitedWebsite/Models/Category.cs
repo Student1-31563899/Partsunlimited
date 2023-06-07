@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
     public class Category
     {
+        //My first change
         public int CategoryId { get; set; }
 
         [Required]
